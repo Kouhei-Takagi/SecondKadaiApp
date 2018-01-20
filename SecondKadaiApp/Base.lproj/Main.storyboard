@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="akF-Qe-BHk">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="akF-Qe-BHk">
                                 <rect key="frame" x="35" y="191" width="250" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="55B-m3-o5T"/>
@@ -27,14 +27,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgV-pN-eLM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgV-pN-eLM">
                                 <rect key="frame" x="144.5" y="271" width="31" height="30"/>
                                 <state key="normal" title="進む"/>
                                 <connections>
                                     <segue destination="xah-70-c8g" kind="show" id="sS4-kw-cJw"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKO-RP-Lom">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKO-RP-Lom">
                                 <rect key="frame" x="64.5" y="120" width="191" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -43,6 +43,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="nKO-RP-Lom" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="FCu-Mo-0UN"/>
                             <constraint firstItem="hgV-pN-eLM" firstAttribute="top" secondItem="akF-Qe-BHk" secondAttribute="bottom" constant="50" id="GYk-rb-A7I"/>
                             <constraint firstItem="hgV-pN-eLM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H16-a8-5dT"/>
                             <constraint firstItem="nKO-RP-Lom" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JXS-XI-JQu"/>
